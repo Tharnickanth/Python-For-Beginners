@@ -21,5 +21,13 @@ How are you.....
 
 print(Letter)
 
-Course = "Learning \"Python\" for Beginners"
+Course = "Learning \nPython \nfor \nBeginners"
 print(Course)
+print(len(Course))
+
+fName = "Tharnickanth"
+lName = "Manoranjan"
+fullName = fName+" "+lName
+print(fullName)
+print(f"{fName} {lName}")
+print(f"{len(fName)} {lName}")
