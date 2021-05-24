@@ -21,4 +21,4 @@ def averageOfNumbers(number1, number2):
     return (number1+number2)/2
 
 
-print(f"Average : {averageOfNumbers}")
+print(f"Average : {averageOfNumbers(10,20)}")
